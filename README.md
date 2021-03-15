@@ -17,7 +17,7 @@
 | Column     | Type          | Options     |
 | ---------- | ------------- | ----------- |
 | title      | string        | null: false |
-| explanation| string        |             |
+| category   | string        |             |
 | choice     | string        | null: false |
 
 ### Association
