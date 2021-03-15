@@ -6,6 +6,7 @@
 | email               | string   | null: false, unique: true |
 | encrypted_password  | string   | null: false               |
 | nickname            | string   | null: false               |
+
 ### Association
 
 - has_many :ranking_users
