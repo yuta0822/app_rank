@@ -6,7 +6,25 @@
   width: 350px;
   height: 100vh;
 }
+.side-bar-header {
+  height: 100px;
+}
+.ranking {
+  background-color: #eeba6d;
+  height: calc(100vh - 100px);
+} 
 .rank {
   background-color: #FFFFFF;
   width: calc(100vw - 350px);
+}
+.rank-header {
+  height: 100px;
+}
+.votes {
+  background-color: #FAFAFA;
+  height: calc(100vh - 100px - 90px);
+}
+.form {
+  background-color: #DDDDDD;
+  height: 90px;
 }
