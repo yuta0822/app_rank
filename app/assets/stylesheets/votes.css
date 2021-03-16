@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+}
+.side-bar {
+  background-color: #fad192;
+  width: 350px;
+  height: 100vh;
+}
+.rank {
+  background-color: #FFFFFF;
+  width: calc(100vw - 350px);
+}
