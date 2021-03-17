@@ -6,4 +6,6 @@ class User < ApplicationRecord
 
   validates :nickname, presence: true
 
+  has_many :ranking_users
+  has_many :rankings, through: :ranking_users
 end
