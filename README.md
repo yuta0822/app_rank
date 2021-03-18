@@ -14,11 +14,15 @@
 - has_many :votes
 
 # rankings テーブル
-| Column     | Type          | Options     |
-| ---------- | ------------- | ----------- |
-| title      | string        | null: false |
-| category   | string        |             |
-| choice     | string        | null: false |
+| Column       | Type          | Options     |
+| ----------   | ------------- | ----------- |
+| title        | string        | null: false |
+| category     | string        |             |
+| choice_a     | string        | null: false |
+| choice_b     | string        | null: false |
+| choice_c     | string        | null: false |
+| choice_d     | string        | null: false |
+| choice_e     | string        | null: false |
 
 ### Association
 - has_many :ranking_users
