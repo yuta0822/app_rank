@@ -14,6 +14,6 @@ class RankingsController < ApplicationController
 
   private
   def ranking_params
-    params.require(:ranking).permit(:title, :category, :choice_a, :choice_b, :choice_c, :choice_d, :choice_e)
+    params.require(:ranking).permit(:title, :category, :choice_a, :choice_b, :choice_c, :choice_d, :choice_e, user_ids: [])
   end
 end

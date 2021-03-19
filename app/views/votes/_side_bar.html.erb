@@ -6,15 +6,13 @@
     <a href="#">ランキングを作成する</a>
   </div>
 </div>
+
 <div class="rankings">
-  <div class="ranking">
-    <div class="ranking-name">
-      <a href="#">techroom1</a>
+  <% current_user.rankings.each do |ranking| %>
+    <div class="ranking">
+      <div class="ranking-name">
+        <a href="#"><%= rankings.title %></a>
+      </div>
     </div>
-  </div>
-  <div class="ranking">
-    <div class="ranking-name">
-      <a href="#">techroom2</a>
-    </div>
-  </div>
+  <% end %>
 </div>
